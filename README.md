@@ -1,12 +1,38 @@
-# AWS Solution Architect Project Portfolio
+<h1 align="center">AWS Solution Architect Project Portfolio</h1>
 
-This repository is a structured portfolio of hands-on AWS projects. Each project is documented in Markdown, paired with a PDF manual, and has room for screenshots or exported visuals.
+<p align="center">
+  A structured collection of hands-on AWS projects covering networking, security, serverless, databases, containers, CI/CD, and infrastructure as code.
+</p>
 
-It is organized to make uploads and navigation easy on GitHub while keeping every project self-contained.
+<p align="center">
+  Maintained by <a href="https://github.com/MrPhadagi-bit">@MrPhadagi-bit</a>
+</p>
+
+## Overview
+
+This repository is built as a portfolio of practical AWS labs and implementation projects. Each project has its own dedicated folder so the documentation, PDF manual, and screenshots stay together and are easy to review on GitHub.
+
+This setup is designed to make the repo useful both as a learning archive and as a presentation-ready project portfolio.
+
+## Highlights
+
+- `35` structured AWS projects
+- Markdown documentation for every project
+- Dedicated `pdf/` folders for manuals
+- Dedicated `images/` folders for screenshots and evidence
+- Reusable template for consistent project write-ups
+
+## Focus Areas
+
+- AWS networking and VPC design
+- IAM, KMS, GuardDuty, and Secrets Manager
+- S3, CloudFront, Lambda, API Gateway, and DynamoDB
+- Aurora, EC2, and three-tier application architecture
+- Kubernetes deployments on AWS
+- CodeArtifact, CodeBuild, CodeDeploy, and CI/CD pipelines
+- Terraform-based AWS provisioning
 
 ## Repository Structure
-
-Each project lives in its own folder inside `projects/`.
 
 ```text
 projects/
@@ -19,17 +45,20 @@ projects/
     README.md
     pdf/
     images/
+  ...
 templates/
   project-template.md
 ```
 
-## What Goes In Each Project Folder
+## Project Folder Standard
 
-- `README.md`: the written project documentation
-- `pdf/manual.pdf`: the project manual or exported lab PDF
-- `images/`: screenshots used inside the write-up
+Every project folder follows the same pattern:
 
-Use [templates/project-template.md](templates/project-template.md) when creating or updating a project write-up.
+- `README.md` contains the written documentation
+- `pdf/manual.pdf` stores the project manual or lab export
+- `images/` stores screenshots referenced in the write-up
+
+Use [templates/project-template.md](templates/project-template.md) when writing or updating project documentation.
 
 ## Project Catalog
 
@@ -71,16 +100,15 @@ Use [templates/project-template.md](templates/project-template.md) when creating
 | 34 | Build a CI/CD Pipeline with AWS | [Open](projects/34-build-a-cicd-pipeline-with-aws/README.md) |
 | 35 | Create S3 Buckets with Terraform | [Open](projects/35-create-s3-buckets-with-terraform/README.md) |
 
-## Upload Workflow
+## How To Add A Project Manual
 
-For each new project:
-
-1. Upload the project PDF to the matching `pdf/` folder as `manual.pdf`.
-2. Add screenshots to the matching `images/` folder.
-3. Replace the starter content in that project's `README.md`.
-4. Follow the format from [templates/project-template.md](templates/project-template.md).
+1. Open the matching project folder inside `projects/`.
+2. Upload the project PDF into that folder's `pdf/` directory as `manual.pdf`.
+3. Add supporting screenshots to the `images/` directory.
+4. Replace the starter content in that project's `README.md`.
+5. Follow the structure in [templates/project-template.md](templates/project-template.md).
 
 ## Notes
 
-- Project `02` and project `16` intentionally share the same title because both were included in your original project list.
-- The root-level legacy Markdown files from the earlier repo history are still preserved.
+- Project `02` and project `16` intentionally have the same title because both were part of the original project list.
+- Legacy root-level Markdown files from the earlier repository history are still preserved.
