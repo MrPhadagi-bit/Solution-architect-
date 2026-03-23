@@ -1,14 +1,14 @@
 # Build a Three-Tier Web App
 
 **Project Number:** 24  
-**Status:** Ready for content  
-**PDF Manual Path:** `manual.pdf`
+**Main Markdown File:** [project.md](project.md)  
+**PDF Manual:** [manual.pdf](manual.pdf)
 
-## Files
+## Folder Contents
 
-- Write the Markdown documentation in this `README.md`.
-- Replace `manual.pdf` with your uploaded PDF manual.
-- Store screenshots in `images/`.
+- `README.md` is the quick folder overview.
+- `project.md` is the main Markdown documentation file.
+- `manual.pdf` is the PDF file you can replace with your uploaded manual.
+- `images/` stores screenshots and supporting visuals.
 
-Use [`../../templates/project-template.md`](../../templates/project-template.md) as your writing template.
-
+Use [project.md](project.md) for the full project write-up.

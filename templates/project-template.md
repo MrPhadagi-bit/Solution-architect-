@@ -5,6 +5,7 @@
 **Project Link:** Add your project URL here  
 **Author:** Your name  
 **Email:** your-email@example.com  
+**Folder README:** [README.md](README.md)  
 **PDF Manual:** `manual.pdf`
 
 ---
@@ -59,6 +60,7 @@ Add screenshots to `images/` and reference them here.
 
 ## Final Notes
 
-- Keep the Markdown write-up in `README.md`.
+- Use this template inside `project.md`.
+- Keep the quick folder overview in `README.md`.
 - Replace `manual.pdf` with your uploaded project manual.
 - Store screenshots and exported images in `images/`.
