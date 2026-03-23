@@ -18,7 +18,7 @@ This setup is designed to make the repo useful both as a learning archive and as
 
 - `35` structured AWS projects
 - Markdown documentation for every project
-- Dedicated `pdf/` folders for manuals
+- A `manual.pdf` file in every project folder
 - Dedicated `images/` folders for screenshots and evidence
 - Reusable template for consistent project write-ups
 
@@ -38,12 +38,11 @@ This setup is designed to make the repo useful both as a learning archive and as
 projects/
   01-host-a-website-on-amazon-s3/
     README.md
-    pdf/
-      manual.pdf
+    manual.pdf
     images/
   02-cloud-security-with-aws-iam/
     README.md
-    pdf/
+    manual.pdf
     images/
   ...
 templates/
@@ -55,7 +54,7 @@ templates/
 Every project folder follows the same pattern:
 
 - `README.md` contains the written documentation
-- `pdf/manual.pdf` stores the project manual or lab export
+- `manual.pdf` stores the project manual or lab export
 - `images/` stores screenshots referenced in the write-up
 
 Use [templates/project-template.md](templates/project-template.md) when writing or updating project documentation.
@@ -103,7 +102,7 @@ Use [templates/project-template.md](templates/project-template.md) when writing 
 ## How To Add A Project Manual
 
 1. Open the matching project folder inside `projects/`.
-2. Upload the project PDF into that folder's `pdf/` directory as `manual.pdf`.
+2. Replace the `manual.pdf` file in that folder with your uploaded project PDF.
 3. Add supporting screenshots to the `images/` directory.
 4. Replace the starter content in that project's `README.md`.
 5. Follow the structure in [templates/project-template.md](templates/project-template.md).
@@ -112,3 +111,4 @@ Use [templates/project-template.md](templates/project-template.md) when writing 
 
 - Project `02` and project `16` intentionally have the same title because both were part of the original project list.
 - Legacy root-level Markdown files from the earlier repository history are still preserved.
+- Each project folder now includes both required files up front: `README.md` and `manual.pdf`.
